@@ -15,3 +15,5 @@
 
 模型文件在百度云盘，链接：https://pan.baidu.com/s/1NpoWW6UVEnmghxjxq4jCJw 
 提取码：k7vz
+
+在下载完代码之后，在visual stdio 2019里新建一个空项目，配置opencv，然后把main.cpp和weights文件拷贝进去，接下来编译运行就可以了

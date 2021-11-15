@@ -2,7 +2,8 @@
 使用OpenCV部署libface人脸检测和SFace人脸识别，包含C++和Python两种版本的程序，仅仅只依赖OpenCV库就能运行
 
 看到最近发布了opencv4.5.4里新增了人脸检测和人脸识别模块，这两个模块是由人脸识别领域的两位大牛设计的，
-其中人脸检测是南科大的于仕琪老师设计的，人脸识别模块是北邮的邓伟洪教授设计的。
+其中人脸检测是南科大的于仕琪老师设计的，人脸识别模块是北邮的邓伟洪教授设计的，其研究成果SFace发表于
+图像处理顶级期刊IEEE Transactions on Image Processing。
 人脸检测示例程序在opencv-master/samples/dnn/face_detect.cpp里，起初我在win10系统里，在visual stdio 2019
 里新建一个空项目，然后把opencv-master/samples/dnn/face_detect.cpp拷贝进来作为主程序，尝试编译，发现编译不通过。
 仔细看代码可以发现face_detect.cpp里使用了类的继承和虚函数重写，这说明依赖包含了其他的.cpp和.hpp头文件的。因此我就编写一套程序，
